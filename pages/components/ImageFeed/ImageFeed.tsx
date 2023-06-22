@@ -36,7 +36,7 @@ const ImageFeed = () => {
     characters.map((character) => (
       <div key={character.id} className={styles.characterItem}>
         <h3>{character.name}</h3>
-        <img src={character.image} alt={character.name} />
+        <img className={styles.img}src={character.image} alt={`image of ${character.name}`} />
       </div>
     ))}
 </div>
