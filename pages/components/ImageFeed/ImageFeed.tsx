@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchCharacters, Character } from '../../api/api';
-import Pagination from '../Pagination/Pagination';
+import Pagination from './../Pagination/Pagination';
 import styles from './ImageFeed.module.css';
-
-const CHARACTERS_PER_PAGE = 20;
 
 const ImageFeed = () => {
   const [characters, setCharacters] = useState<Character[]>([]);
