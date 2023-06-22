@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+}
+
+.characterItem img {
+  width: 100%;
+  height: auto;
+}
+
+.characterGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.characterItem {
+  text-align: center;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+

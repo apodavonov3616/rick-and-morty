@@ -1,0 +1,10 @@
+.paginationButton {
+    background-color: rgb(230, 228, 228);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.paginationButton:hover {
+    background-color: rgb(196, 194, 194);
+    cursor: pointer;
+}
