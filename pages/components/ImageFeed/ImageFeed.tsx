@@ -28,7 +28,7 @@ const ImageFeed = () => {
 
   return (
     <div>
-      <h1 className={styles.header}>Rick and Morty Characters</h1>
+      <h1 className={styles.header}>Rick and Morty Pagination</h1>
       <div className={`${styles.characterGrid} ${styles.spaceBottom}`}>
   {characters &&
     characters.map((character) => (
